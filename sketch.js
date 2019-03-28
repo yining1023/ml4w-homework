@@ -2,7 +2,7 @@ let video;
 let classifier;
 
 function setup() {
-  noCanvas();
+  createCanvas(300, 300);
 
   video = createCapture(VIDEO);
 
@@ -20,5 +20,10 @@ function gotResult(err, results) {
     select('#result').html(results[0].className);
     select('#probability').html(results[0].probability);
     classifier.predict(gotResult);
+    if (results[0].className === 'Granny Smith') {
+      background(255, 0, 0);
+    } else {
+      background(0, 255, 0);
+    }
   }
 }
