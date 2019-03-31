@@ -53,3 +53,33 @@ Here is a step by step guide about how to push code to a Github Repo and host sk
 
 15. That's it!! You should be able to see your homework link on the page: https://github.com/yining1023/machine-learning-for-the-web/wiki/Week-1--2019-Spring.
 
+
+## How to update your code and push it to Github
+If you would like to update your code, you can follow these steps:
+1. Make a new folder on your Desktop called "ml", open your terminal.
+
+2. Type `cd `(cd and a space), drag the "ml" folder into the terminal window. You will see your command changes to: `cd /Users/YOUR_NAME/Desktop/ml`
+
+3. Hit `enter` or `return` on your keyboard. You will see in your terminal, you are at this path: `~/Desktop/ml`
+
+4. Go to the ml4w-homework github repo we created before: https://github.com/yining1023/ml4w-homework, click on the green "Clone or download" button, copy the link highlighted in green: https://github.com/YOUR_USERNAME/ml4w-homework.
+
+5. In your terminal, type in `git clone `, with the link we just copied(git clone https://github.com/yining1023/ml4w-homework1.git). Hit enter.
+
+6. In your terminal, type in `cd ml4w-homework`, hit enter.
+
+7. Go to the Desktop, open `ml` folder, open the `ml4w-homework` folder with your code editor. Edit the code, make some changes.
+
+8. In the terminal, type in `python -m SimpleHTTPServer` or `python3 -m http.server` if you are using python 3. The terminal will say "Serving HTTP on 0.0.0.0 port 8000 ...".
+
+9. Go to `localhost:8000/week1` in your browser, you will see your example.
+
+10. You can change some code, refresh the web page to see the changes.
+
+11. After you are happy with the result, go back to terminal, hit "control + c" key, to quit the server, 
+
+12. 
+
+
+
+
